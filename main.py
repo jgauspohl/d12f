@@ -1,7 +1,7 @@
 import random
 
 def start_game():
-    print("Welcome to the Number Guessing Game!")
+    print("Welcome to the Number Guessing Game")
     print("I am thinking of a number between 1 and 100.")
     difficulty = input("Choose a difficulty, type 'easy' or 'hard': ")
     ANSWER = random.randint(1, 100)
